@@ -1,4 +1,5 @@
 # C3_4_MazeRoute
+Updated documentation and minor improvements.
 AIML miniproject
 MazeRout : AI-Powered Terrain-Based Pathfinding Simulation
 A* Pathfinding + Machine Learning Terrain Prediction + Pygame Simulation
