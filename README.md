@@ -1,27 +1,61 @@
-# C3_4_MazeRoute
-Updated documentation and minor improvements.
-AIML miniproject
-MazeRout : AI-Powered Terrain-Based Pathfinding Simulation
-A* Pathfinding + Machine Learning Terrain Prediction + Pygame Simulation
+# PhishGuard - MazeRoute: AI-Powered Terrain-Based Pathfinding Simulation
 
-Overview
-This project is an interactive simulation/game that integrates:
+> A* Pathfinding + Machine Learning Terrain Prediction + Pygame Simulation
 
-A* algorithm for optimal pathfinding
-Machine Learning models for predicting terrain type (classification) and difficulty (regression)
-Pygame-based maze environment where users can visually explore paths across different terrains The system estimates terrain difficulty using a custom CSV dataset (converted from the Terrain Class Friction Dataset) and dynamically adjusts A* movement cost to choose smarter paths.
-Key Features
-Terrain Classification (ML Model 1) - Predicts terrain type using features like friction coefficient Models tested: Logistic Regression, SVM, Random Forest Final chosen model: Random Forest Classifier Performance: ~98% accuracy
+## Overview
 
-Terrain Difficulty Prediction (ML Model 2) - Predicts numerical difficulty score for any terrain Regression models used: Linear Regression, Random Forest Regressor, Gradient Boosting Final chosen model: Random Forest Regressor
+An interactive simulation that integrates:
+- **A\* algorithm** for optimal pathfinding
+- **Machine Learning models** for predicting terrain type (classification) and difficulty (regression)
+- **Pygame-based maze environment** where users can visually explore paths across different terrains
 
-A* Pathfinding Algorithm - Computes the best path from start to goal Enhanced with terrain-aware movement cost using ML predictions Avoids difficult terrains when possible Fully visualized through the grid
+The system estimates terrain difficulty using a custom CSV dataset (converted from the Terrain Class Friction Dataset) and dynamically adjusts A* movement cost to choose smarter paths.
 
-Pygame Maze Simulation Interactive grid-based maze - Start and end points selected by the user Displays path traversal clearly Integrates ML outputs in real-time Users can input custom terrain feature values for prediction
+---
 
-Technical Highlights
-Real time ML inference integrated with Pygame
-Terrain-aware cost function inside A*
-Modular folder structure
-Works with any terrain-style CSV dataset
-Lightweight and runs smoothly on most systems
+## Key Features
+
+### Terrain Classification (ML Model 1)
+- Predicts terrain type using features like friction coefficient
+- Models tested: Logistic Regression, SVM, Random Forest
+- Final model: **Random Forest Classifier**
+- Performance: **~98% accuracy**
+
+### Terrain Difficulty Prediction (ML Model 2)
+- Predicts numerical difficulty score for any terrain
+- Models tested: Linear Regression, Random Forest Regressor, Gradient Boosting
+- Final model: **Random Forest Regressor**
+
+### A* Pathfinding Algorithm
+- Computes the best path from start to goal
+- Enhanced with terrain-aware movement cost using ML predictions
+- Avoids difficult terrains when possible
+- Fully visualized through the grid
+
+### Pygame Maze Simulation
+- Interactive grid-based maze
+- Start and end points selected by the user
+- Displays path traversal clearly
+- Integrates ML outputs in real-time
+- Users can input custom terrain feature values for prediction
+
+---
+
+## Technical Highlights
+- Real-time ML inference integrated with Pygame
+- Terrain-aware cost function inside A*
+- Modular folder structure
+- Works with any terrain-style CSV dataset
+- Lightweight and runs smoothly on most systems
+
+---
+
+## How to Run
+
+```bash
+pip install pygame scikit-learn pandas numpy
+python main.py
+```
+
+## Team
+Built as an AIML miniproject.
