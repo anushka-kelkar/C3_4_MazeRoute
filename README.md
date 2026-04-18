@@ -20,7 +20,7 @@ A* Pathfinding Algorithm - Computes the best path from start to goal Enhanced wi
 Pygame Maze Simulation Interactive grid-based maze - Start and end points selected by the user Displays path traversal clearly Integrates ML outputs in real-time Users can input custom terrain feature values for prediction
 
 Technical Highlights
-Real-time ML inference integrated with Pygame
+Real time ML inference integrated with Pygame
 Terrain-aware cost function inside A*
 Modular folder structure
 Works with any terrain-style CSV dataset
