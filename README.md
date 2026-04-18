@@ -1,4 +1,4 @@
-# PhishGuard - MazeRoute: AI-Powered Terrain-Based Pathfinding Simulation
+# MazeRoute: AI-Powered Terrain-Based Pathfinding Simulation
 
 > A* Pathfinding + Machine Learning Terrain Prediction + Pygame Simulation
 
@@ -37,25 +37,4 @@ The system estimates terrain difficulty using a custom CSV dataset (converted fr
 - Start and end points selected by the user
 - Displays path traversal clearly
 - Integrates ML outputs in real-time
-- Users can input custom terrain feature values for prediction
-
----
-
-## Technical Highlights
-- Real-time ML inference integrated with Pygame
-- Terrain-aware cost function inside A*
-- Modular folder structure
-- Works with any terrain-style CSV dataset
-- Lightweight and runs smoothly on most systems
-
----
-
-## How to Run
-
-```bash
-pip install pygame scikit-learn pandas numpy
-python main.py
-```
-
-## Team
-Built as an AIML miniproject.
+- Users ca
